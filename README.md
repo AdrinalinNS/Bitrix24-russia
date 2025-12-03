@@ -33,18 +33,5 @@ ________________________________________
 
 Требуется:
 Сервер с доступом в интернет и установленным PHP
-
-в моем случае использую в Ubuntu 22 :
-
-ставим PHP 7.4++
-
-add-apt-repository ppa:ondrej/php
-apt-get update
-export PHP_VER=8.2
-sudo apt install php${PHP_VER}-fpm php${PHP_VER}-common php${PHP_VER}-zip php${PHP_VER}-xml php${PHP_VER}-intl php${PHP_VER}-gd php${PHP_VER}-mysql php${PHP_VER}-mbstring php${PHP_VER}-curl php${PHP_VER}-imagick libapache2-mod-fcgid php${PHP_VER}-gmp php${PHP_VER}-bcmath libmagickcore-6.q16-6-extra
-
+PHP 7.4++
 правильная дата/время
-
-sudo apt install chrony
-systemctl enable chrony
-timedatectl set-timezone Asia/Vladivostok
